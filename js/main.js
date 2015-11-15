@@ -32,3 +32,16 @@ $(window).scroll(function() {
     }
   });
 });
+
+// Activate Carousel
+$("#myCarousels1").carousel();
+
+// Enable Carousel Indicators
+$(".item").click(function(){
+    $("#myCarousels1").carousel(1);
+});
+
+// Enable Carousel Controls
+$(".left").click(function(){
+    $("#myCarousels1").carousel("prev");
+});
