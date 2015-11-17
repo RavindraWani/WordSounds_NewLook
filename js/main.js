@@ -33,15 +33,9 @@ $(window).scroll(function() {
   });
 });
 
-// Activate Carousel
-$("#myCarousels1").carousel();
 
-// Enable Carousel Indicators
-$(".item").click(function(){
-    $("#myCarousels1").carousel(1);
-});
+//This is for ToolTip
 
-// Enable Carousel Controls
-$(".left").click(function(){
-    $("#myCarousels1").carousel("prev");
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
 });
