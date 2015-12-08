@@ -8,14 +8,28 @@ html {
 }
   
 .jumbotron { 
-    background-color: #0A0B0D; /* black */
     color: #ffffff;
+    background-color: #0A0B0D; /* black */
+	background: url(../img/background1.jpg) no-repeat center fixed;
 	padding: 100px 25px;
-//  background-size: cover;
-//  background-position: absolute;
-//  min-height: 100%;
+	background-size: cover;
+	background-position: absolute;
+	min-height: 100%;
 	}
 
+.logoheading {
+font-size:  50px;
+color:red;
+}
+
+.secondheading {
+	font-size: 95px;
+	font-family: 'Pacifico', cursive;
+	background-color: grey;
+    opacity: 0.2;
+    filter: alpha(opacity=40);
+}
+	
 .container-fluid {
     padding: 50px 20px 20px 20px;
 
@@ -212,7 +226,11 @@ background-color: green;
 }
 */
 .myServices {
+  background: #0a0b0d;
   border-radius: 10px;
+  -webkit-box-shadow: 4px 8px 20px #e80000;
+  -moz-box-shadow: 4px 8px 20px #e80000;
+  box-shadow: 4px 8px 20px #e80000;
   padding: 10px 12px 10px 12px;
   border: solid #cc0000 5px;
   text-decoration: none;
@@ -220,13 +238,16 @@ background-color: green;
 
 .myServices:hover {
   color: #33cc00;
-  //background: #0a0b0d;
+  background: #0a0b0d;
   background-image: -webkit-linear-gradient(top, #0a0b0d, #242607);
   background-image: -moz-linear-gradient(top, #0a0b0d, #242607);
   background-image: -ms-linear-gradient(top, #0a0b0d, #242607);
   background-image: -o-linear-gradient(top, #0a0b0d, #242607);
   background-image: linear-gradient(to bottom, #0a0b0d, #242607);
   border-radius: 10px;
+  -webkit-box-shadow: 4px 8px 30px #3ef700;
+  -moz-box-shadow: 4px 8px 30px #3ef700;
+  box-shadow: 4px 8px 30px #3ef700;
   padding: 10px 12px 10px 12px;
   border: solid #33cc00 5px;
   text-decoration: none;
