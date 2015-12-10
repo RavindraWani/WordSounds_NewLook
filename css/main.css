@@ -23,11 +23,11 @@ color:red;
 }
 
 .secondheading {
-	font-size: 95px;
+//	font-size: 95px;
 	font-family: 'Pacifico', cursive;
-	background-color: grey;
-    opacity: 0.2;
-    filter: alpha(opacity=40);
+//	background-color: grey;
+//    opacity: 0.2;
+//    filter: alpha(opacity=40);
 }
 	
 .container-fluid {
